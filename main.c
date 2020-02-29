@@ -142,7 +142,6 @@ void disassemble(const char *cmd, char *args) {
     print_addr("Disassemble len", len);
     
     cs_insn* insn;
-    len = 5;
     size_t count = cs_disasm(cs_handle, (unsigned char*)addr, len * 4, addr, 0, &insn);
     printf("Got %d ins\n", count);
     if (count) {
