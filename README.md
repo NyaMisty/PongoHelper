@@ -23,7 +23,7 @@ Using this module, the following 3 commands will be available in pongoOS shell:
 ```
 $ git clone https://github.com/checkra1n/PongoKit
 $ cd PongoKit
-$ git clone --recursive https://github.com/NyaMisty/PongoTest test
+$ git clone --recursive https://github.com/NyaMisty/PongoHelper test
 $ cd test
 $ ./make.sh
 $ python ../scripts/module_load.py test_module
