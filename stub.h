@@ -6,6 +6,15 @@ void stub_log(const char *a, ...){
 }
 #endif
 
+int putchar(int c) {
+    printf32("%c", c);
+    return c;
+}
+
+int isprint(int c){
+    return c >= 32 && c < 127;
+}
+
 int __tolower(int c) {
     if (c >= 'A' && c <= 'Z') {
         c -= 'A' - 'a';
