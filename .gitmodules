@@ -1,0 +1,9 @@
+[submodule "capstone"]
+	path = capstone
+	url = https://github.com/aquynh/capstone
+[submodule "printf"]
+	path = printf
+	url = https://github.com/mpaland/printf
+[submodule "tinyalloc"]
+	path = tinyalloc
+	url = https://github.com/thi-ng/tinyalloc
