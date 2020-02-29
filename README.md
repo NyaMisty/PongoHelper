@@ -12,10 +12,10 @@ Using this module, the following 3 commands will be available in pongoOS shell:
 
 ## Build & Run
 ```
-$ git clone ....PongoKit
+$ git clone https://github.com/checkra1n/PongoKit
 $ cd PongoKit
-$ git clone --recursive https://.........
-$ cd XXXX
+$ git clone --recursive https://github.com/NyaMisty/PongoTest test
+$ cd test
 $ ./make.sh
 $ python ../scripts/module_load.py test_module
 ```
